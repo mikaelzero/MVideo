@@ -1,4 +1,4 @@
-## MVideo   [![](https://jitpack.io/v/miaoyongjun/MVideo.svg)](https://jitpack.io/#miaoyongjun/MVideo)
+## MVideo      [![](https://jitpack.io/v/miaoyongjun/MVideo.svg)](https://jitpack.io/#miaoyongjun/MVideo)
 
 
 
@@ -47,7 +47,6 @@ dependencies {
 MVideo.getInstance()
                 .setPreviewImage("http://bmob-cdn-982.b0.upaiyun.com/2017/02/24/98754a6a401d5c48806b2b3863e32bed.jpg")
                 .start(this,srcView,"http://bmob-cdn-982.b0.upaiyun.com/2017/02/23/266454624066f2b680707492a0664a97.mp4");
-
 ```
 
 ## About Cache
