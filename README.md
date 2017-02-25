@@ -1,13 +1,12 @@
 ## MVideo   [![](https://jitpack.io/v/miaoyongjun/MVideo.svg)](https://jitpack.io/#miaoyongjun/MVideo)
 
-----------
+
 
 An imitation of WeChat circle of friends video effects,  can drag and zoom ,video view,base on ijkplayer.
 
 
 ## Demo
 
-----------
 
 ![mvideo](https://github.com/miaoyongjun/MVideo/blob/master/1.gif?raw=true)
 
@@ -15,7 +14,6 @@ An imitation of WeChat circle of friends video effects,  can drag and zoom ,vide
 
 ## Get started
 
-----------
 
 **Step 1**  :  Add the JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
@@ -54,13 +52,11 @@ MVideo.getInstance()
 
 ## About Cache
 
-----------
 
 I think the cache needs to be handled by the developers themselves, so **MVideo** does not provide caching,I recommend a framework here . [AndroidVideoCache](https://github.com/danikula/AndroidVideoCache)
 
 ## Thanks
 
-----------
 
 - [glide](https://github.com/bumptech/glide)
 - [ijkplayer](https://github.com/Bilibili/ijkplayer)
