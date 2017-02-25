@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@mipmap/avatar"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/icon"
+        android:text="停停走走"
+        android:textColor="#ff004CFF"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@id/icon"
+        android:text="Fate/Grand Order"
+        android:textColor="#3D3D3D"/>
+
+    <ImageView
+        android:id="@+id/srcImageView"
+        android:layout_width="200dp"
+        android:layout_height="112dp"
+        android:layout_below="@id/icon"
+        android:layout_marginTop="16dp"
+        android:layout_toRightOf="@id/icon"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/zd"/>
+
+</RelativeLayout>

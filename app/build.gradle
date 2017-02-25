@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+    compileSdkVersion globalConfiguration.androidCompileSdkVersion
+    buildToolsVersion globalConfiguration.androidBuildToolsVersion
+    defaultConfig {
+        applicationId "com.example.administrator.mvideo"
+        minSdkVersion globalConfiguration.androidMinSdkVersion
+        targetSdkVersion globalConfiguration.androidTargetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile androidDependencies.appcompat_v7
+    compile androidDependencies.design
+    compile imageDependencies.glide
+    compile androidDependencies.cardview
+//    compile 'com.github.miaoyongjun.MVideo:mdragvideo:1.0.0'
+    compile project(':mdragvideo')
+}

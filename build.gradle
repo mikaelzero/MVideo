@@ -1,0 +1,66 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.3'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    //Android
+    androidBuildToolsVersion = "25.0.0"
+    androidMinSdkVersion = 16
+    androidTargetSdkVersion = 25
+    androidCompileSdkVersion = 25
+    supportLibraryVersion = '25.0.0'
+
+    ijkplayer = '0.7.7.1'
+
+    leakcanary = '1.5'
+
+    glide = '3.7.0'
+    picasso = '2.5.2'
+    progress = '0.5.8-RELEASE'
+
+    androidDependencies = [
+            appcompat_v7: "com.android.support:appcompat-v7:${supportLibraryVersion}",
+            design      : "com.android.support:design:${supportLibraryVersion}",
+            cardview    : "com.android.support:cardview-v7:${supportLibraryVersion}",
+    ]
+
+    viewDependencies = [
+            ijkplayer_java  : "tv.danmaku.ijk.media:ijkplayer-java:${ijkplayer}",
+            ijkplayer_armv7a: "tv.danmaku.ijk.media:ijkplayer-armv7a:${ijkplayer}",
+            ijkplayer_armv5 : "tv.danmaku.ijk.media:ijkplayer-armv5:${ijkplayer}",
+            ijkplayer_arm64 : "tv.danmaku.ijk.media:ijkplayer-arm64:${ijkplayer}",
+            ijkplayer_x86_64: "tv.danmaku.ijk.media:ijkplayer-x86_64:${ijkplayer}",
+            ijkplayer_x86   : "tv.danmaku.ijk.media:ijkplayer-x86:${ijkplayer}",
+            ijkplayer_exo   : "tv.danmaku.ijk.media:ijkplayer-exo:${ijkplayer}",
+    ]
+
+    imageDependencies = [
+            glide: "com.github.bumptech.glide:glide:${glide}",
+    ]
+
+    dataDependencies = [
+            leakcanary: "com.squareup.leakcanary:leakcanary-android:${leakcanary}",
+            progress  : "com.lsjwzh:materialloadingprogressbar:${progress}",
+    ]
+}
