@@ -15,7 +15,7 @@ An imitation of WeChat circle of friends video effects,  can drag and zoom ,vide
 ## Get started
 
 
-**Step 1**  :  Add the JitPack repository to your build file
+#### **Step 1**  :  Add the JitPack repository to your build file
 Add it in your root build.gradle at the end of repositories:
 
 ```
@@ -27,7 +27,7 @@ allprojects {
 	}
 ```
 
-**Step 2**  :  Add the dependency
+####  **Step 2**  :  Add the dependency
 
 ```
 dependencies {
@@ -35,13 +35,13 @@ dependencies {
 	}
 ```
 
-**Step 3**   :  register in mainifest.xml
+#### **Step 3**   :  register in mainifest.xml
 
 ```
  <activity android:name="com.miaoyongjun.mdragvideo.DragVideoActivity"/>
 ```
 
-**Step 4**  :  go go go
+#### **Step 4**  :  go go go
 
 ```
 MVideo.getInstance()

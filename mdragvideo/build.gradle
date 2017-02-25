@@ -33,5 +33,4 @@ dependencies {
     compile viewDependencies.ijkplayer_armv5
     compile viewDependencies.ijkplayer_x86
     compile imageDependencies.glide
-    compile dataDependencies.progress
 }

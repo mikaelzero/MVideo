@@ -36,8 +36,6 @@ ext {
     leakcanary = '1.5'
 
     glide = '3.7.0'
-    picasso = '2.5.2'
-    progress = '0.5.8-RELEASE'
 
     androidDependencies = [
             appcompat_v7: "com.android.support:appcompat-v7:${supportLibraryVersion}",
@@ -61,6 +59,5 @@ ext {
 
     dataDependencies = [
             leakcanary: "com.squareup.leakcanary:leakcanary-android:${leakcanary}",
-            progress  : "com.lsjwzh:materialloadingprogressbar:${progress}",
     ]
 }
