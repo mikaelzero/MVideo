@@ -1,4 +1,4 @@
-## MVideo      [![](https://jitpack.io/v/miaoyongjun/MVideo.svg)](https://jitpack.io/#miaoyongjun/MVideo)
+## MVideo     [![](https://jitpack.io/v/miaoyongjun/MVideo.svg)](https://jitpack.io/#miaoyongjun/MVideo)
 
 
 

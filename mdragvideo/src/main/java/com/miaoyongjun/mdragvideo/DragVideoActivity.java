@@ -40,6 +40,7 @@ public class DragVideoActivity extends AppCompatActivity {
     int mOriginHeight;
     int mOriginWidth;
 
+    //横屏时宽度填充时的高度
     int targetImageHeight;
     float imageScaleX;
     float imageScaleY;
@@ -159,6 +160,10 @@ public class DragVideoActivity extends AppCompatActivity {
 
 
     private void getLocation() {
+        /**
+         * 通过图片先缩放到图片对应的大小,再显示出视频,当视频完全加载完时,隐藏图片
+         * 因此,如果想达到最好的效果,你应该将图片的比例和视频的比例相对应
+         */
         mOriginLeft = getIntent().getIntExtra(LEFT, 0);
         mOriginTop = getIntent().getIntExtra(TOP, 0);
         mOriginHeight = getIntent().getIntExtra(HEIGHT, 0);
@@ -178,6 +183,7 @@ public class DragVideoActivity extends AppCompatActivity {
         previewImage.setLayoutParams(layoutParams);
         if (resId != resDefaultValue) previewImage.setImageResource(resId);
         previewImage.setScaleType(ImageView.ScaleType.CENTER_CROP);
+        //设置原view的位置，并且以该view的左上角为缩放中心点
         previewImage.setX(mOriginLeft);
         previewImage.setY(mOriginTop);
         previewImage.setPivotX(0);
@@ -261,7 +267,7 @@ public class DragVideoActivity extends AppCompatActivity {
 
         float transY;
         if (mOriginWidth > mOriginHeight) {
-            //如果图片时横向的
+            //如果图片是横向的
             transY = (screenHeight - targetImageHeight) / 2;
         } else {
             transY = 0;
