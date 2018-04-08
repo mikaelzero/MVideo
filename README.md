@@ -31,7 +31,7 @@ allprojects {
 
 ```java
 dependencies {
-	        compile 'com.github.miaoyongjun:MVideo:1.0'
+	        compile 'com.github.miaoyongjun:MVideo:1.5'
 	}
 ```
 
@@ -41,11 +41,17 @@ dependencies {
  <activity android:name="com.miaoyongjun.mdragvideo.DragVideoActivity"/>
 ```
 
-#### **Step 4**  :  go go go
+#### **Step 4**  :  start
 
 ```java
 MVideo.getInstance()
                 .setPreviewImage("http://bmob-cdn-982.b0.upaiyun.com/2017/02/24/98754a6a401d5c48806b2b3863e32bed.jpg")
+		.bind(new ImageLoaderAdapter() {
+                                @Override
+                                public void bind(ImageView imageView, String imagePath) {
+                                    Glide.with(DisplayActivity.this).load(imagePath).into(imageView);
+                                }
+                            })
                 .start(this,srcView,"http://bmob-cdn-982.b0.upaiyun.com/2017/02/23/266454624066f2b680707492a0664a97.mp4");
 ```
 
