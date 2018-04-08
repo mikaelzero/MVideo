@@ -11,8 +11,8 @@ android {
     defaultConfig {
         minSdkVersion globalConfiguration.androidMinSdkVersion
         targetSdkVersion globalConfiguration.androidTargetSdkVersion
-        versionCode 12
-        versionName "1.2"
+        versionCode 15
+        versionName "1.5"
 
     }
     buildTypes {
@@ -32,5 +32,5 @@ dependencies {
     compile viewDependencies.ijkplayer_armv7a
     compile viewDependencies.ijkplayer_armv5
     compile viewDependencies.ijkplayer_x86
-    compile imageDependencies.glide
+    //compile imageDependencies.glide
 }
