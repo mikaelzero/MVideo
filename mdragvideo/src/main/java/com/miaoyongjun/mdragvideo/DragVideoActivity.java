@@ -15,7 +15,6 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 
-import com.bumptech.glide.Glide;
 import com.miaoyongjun.mdragvideo.media.IjkVideoView;
 
 import tv.danmaku.ijk.media.player.IMediaPlayer;
@@ -61,7 +60,11 @@ public class DragVideoActivity extends AppCompatActivity {
     int screenWidth;
     int screenHeight;
     private ProgressBar mProgressBar;
+    static ImageLoaderAdapter loader;
 
+    public static void setLoader(ImageLoaderAdapter l) {
+        loader = l;
+    }
 
     private void getIntentData() {
         videoPath = getIntent().getStringExtra(MVideo.VIDEO_PATH);
@@ -91,7 +94,8 @@ public class DragVideoActivity extends AppCompatActivity {
         mProgressBar.getIndeterminateDrawable().setColorFilter(
                 progressColor, PorterDuff.Mode.MULTIPLY);
         if (!TextUtils.isEmpty(imagePath)) {
-            Glide.with(DragVideoActivity.this).load(imagePath).into(previewImage);
+//            Glide.with(DragVideoActivity.this).load(imagePath).into(previewImage);
+            loader.bind(previewImage, imagePath);
         }
         setViewPosition();
     }
@@ -136,14 +140,16 @@ public class DragVideoActivity extends AppCompatActivity {
 
             @Override
             public void onPlayStart() {
-                if (videoStatusCallBack != null) videoStatusCallBack.onPlayStart();
+                if (videoStatusCallBack != null)
+                    videoStatusCallBack.onPlayStart();
             }
 
             @Override
             public void onPlayFinish() {
                 mProgressBar.setVisibility(View.GONE);
                 previewImage.setVisibility(View.GONE);
-                if (videoStatusCallBack != null) videoStatusCallBack.onPlayFinish();
+                if (videoStatusCallBack != null)
+                    videoStatusCallBack.onPlayFinish();
                 finishVideo();
             }
 
@@ -181,7 +187,8 @@ public class DragVideoActivity extends AppCompatActivity {
         RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(targetImageWidth, targetImageHeight);
         layoutParams.addRule(RelativeLayout.CENTER_IN_PARENT);
         previewImage.setLayoutParams(layoutParams);
-        if (resId != resDefaultValue) previewImage.setImageResource(resId);
+        if (resId != resDefaultValue)
+            previewImage.setImageResource(resId);
         previewImage.setScaleType(ImageView.ScaleType.CENTER_CROP);
         //设置原view的位置，并且以该view的左上角为缩放中心点
         previewImage.setX(mOriginLeft);
@@ -397,7 +404,8 @@ public class DragVideoActivity extends AppCompatActivity {
 
             @Override
             public void onAnimationEnd(Animator animator) {
-                if (dragVideoView != null) dragVideoView.release(true);
+                if (dragVideoView != null)
+                    dragVideoView.release(true);
                 animator.removeAllListeners();
                 finish();
                 overridePendingTransition(0, 0);

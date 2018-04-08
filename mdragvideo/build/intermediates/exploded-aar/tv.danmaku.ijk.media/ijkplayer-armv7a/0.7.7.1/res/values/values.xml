@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string name="ijkplayer_dummy" ns1:ignore="UnusedResources"/>
+</resources>

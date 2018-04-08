@@ -1,0 +1,153 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:2:1-34:12
+	package
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:3:11-57
+		INJECTED from D:\MVideo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MVideo\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\MVideo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MVideo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\MVideo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MVideo\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:5:5-79
+MERGED from [com.github.miaoyongjun:mdragvideo:unspecified] D:\MVideo\app\build\intermediates\exploded-aar\com.github.miaoyongjun\mdragvideo\unspecified\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.github.miaoyongjun:mdragvideo:unspecified] D:\MVideo\app\build\intermediates\exploded-aar\com.github.miaoyongjun\mdragvideo\unspecified\AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:7:5-68
+MERGED from [com.github.miaoyongjun:mdragvideo:unspecified] D:\MVideo\app\build\intermediates\exploded-aar\com.github.miaoyongjun\mdragvideo\unspecified\AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:7:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:8:5-75
+MERGED from [com.github.miaoyongjun:mdragvideo:unspecified] D:\MVideo\app\build\intermediates\exploded-aar\com.github.miaoyongjun\mdragvideo\unspecified\AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:8:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:9:5-81
+MERGED from [com.github.miaoyongjun:mdragvideo:unspecified] D:\MVideo\app\build\intermediates\exploded-aar\com.github.miaoyongjun\mdragvideo\unspecified\AndroidManifest.xml:11:5-81
+MERGED from [com.github.miaoyongjun:mdragvideo:unspecified] D:\MVideo\app\build\intermediates\exploded-aar\com.github.miaoyongjun\mdragvideo\unspecified\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:10:5-80
+MERGED from [com.github.miaoyongjun:mdragvideo:unspecified] D:\MVideo\app\build\intermediates\exploded-aar\com.github.miaoyongjun\mdragvideo\unspecified\AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:11:5-73
+MERGED from [com.github.miaoyongjun:mdragvideo:unspecified] D:\MVideo\app\build\intermediates\exploded-aar\com.github.miaoyongjun\mdragvideo\unspecified\AndroidManifest.xml:19:5-73
+	android:name
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:11:22-70
+uses-permission#android.permission.VIBRATE
+ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:12:5-66
+MERGED from [com.github.miaoyongjun:mdragvideo:unspecified] D:\MVideo\app\build\intermediates\exploded-aar\com.github.miaoyongjun\mdragvideo\unspecified\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:12:22-63
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:13:5-84
+MERGED from [com.github.miaoyongjun:mdragvideo:unspecified] D:\MVideo\app\build\intermediates\exploded-aar\com.github.miaoyongjun\mdragvideo\unspecified\AndroidManifest.xml:12:5-84
+MERGED from [com.github.miaoyongjun:mdragvideo:unspecified] D:\MVideo\app\build\intermediates\exploded-aar\com.github.miaoyongjun\mdragvideo\unspecified\AndroidManifest.xml:21:5-84
+	android:name
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:13:22-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:14:5-79
+MERGED from [com.github.miaoyongjun:mdragvideo:unspecified] D:\MVideo\app\build\intermediates\exploded-aar\com.github.miaoyongjun\mdragvideo\unspecified\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:15:5-76
+MERGED from [com.github.miaoyongjun:mdragvideo:unspecified] D:\MVideo\app\build\intermediates\exploded-aar\com.github.miaoyongjun\mdragvideo\unspecified\AndroidManifest.xml:23:5-76
+	android:name
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:15:22-73
+application
+ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:17:5-32:19
+MERGED from [com.android.support:design:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.github.miaoyongjun:mdragvideo:unspecified] D:\MVideo\app\build\intermediates\exploded-aar\com.github.miaoyongjun\mdragvideo\unspecified\AndroidManifest.xml:25:5-32:19
+MERGED from [com.android.support:appcompat-v7:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\AndroidManifest.xml:25:5-20
+MERGED from [tv.danmaku.ijk.media:ijkplayer-exo:0.7.7.1] D:\MVideo\app\build\intermediates\exploded-aar\tv.danmaku.ijk.media\ijkplayer-exo\0.7.7.1\AndroidManifest.xml:9:5-13:19
+	android:label
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:20:9-41
+	android:supportsRtl
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:21:9-35
+	android:allowBackup
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:18:9-35
+	android:icon
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:19:9-43
+	android:theme
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:22:9-40
+activity#com.miaoyongjun.administrator.mvideo.MainActivity
+ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:23:9-29:20
+	android:name
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:23:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:25:17-68
+	android:name
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:27:17-76
+	android:name
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:27:27-74
+activity#com.miaoyongjun.mdragvideo.DragVideoActivity
+ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:30:9-80
+MERGED from [com.github.miaoyongjun:mdragvideo:unspecified] D:\MVideo\app\build\intermediates\exploded-aar\com.github.miaoyongjun\mdragvideo\unspecified\AndroidManifest.xml:29:9-31:50
+	android:theme
+		ADDED from [com.github.miaoyongjun:mdragvideo:unspecified] D:\MVideo\app\build\intermediates\exploded-aar\com.github.miaoyongjun\mdragvideo\unspecified\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:30:19-78
+activity#com.miaoyongjun.administrator.mvideo.DisplayActivity
+ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:31:9-52
+	android:name
+		ADDED from D:\MVideo\app\src\main\AndroidManifest.xml:31:19-50
+uses-sdk
+INJECTED from D:\MVideo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.github.miaoyongjun:mdragvideo:unspecified] D:\MVideo\app\build\intermediates\exploded-aar\com.github.miaoyongjun\mdragvideo\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\AndroidManifest.xml:21:5-23:58
+MERGED from [tv.danmaku.ijk.media:ijkplayer-exo:0.7.7.1] D:\MVideo\app\build\intermediates\exploded-aar\tv.danmaku.ijk.media\ijkplayer-exo\0.7.7.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.exoplayer:exoplayer:r1.5.11] D:\MVideo\app\build\intermediates\exploded-aar\com.google.android.exoplayer\exoplayer\r1.5.11\AndroidManifest.xml:24:5-26:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.7.7.1] D:\MVideo\app\build\intermediates\exploded-aar\tv.danmaku.ijk.media\ijkplayer-java\0.7.7.1\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-armv7a:0.7.7.1] D:\MVideo\app\build\intermediates\exploded-aar\tv.danmaku.ijk.media\ijkplayer-armv7a\0.7.7.1\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-armv5:0.7.7.1] D:\MVideo\app\build\intermediates\exploded-aar\tv.danmaku.ijk.media\ijkplayer-armv5\0.7.7.1\AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-x86:0.7.7.1] D:\MVideo\app\build\intermediates\exploded-aar\tv.danmaku.ijk.media\ijkplayer-x86\0.7.7.1\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.0.0] D:\MVideo\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\MVideo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MVideo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\MVideo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MVideo\app\src\main\AndroidManifest.xml

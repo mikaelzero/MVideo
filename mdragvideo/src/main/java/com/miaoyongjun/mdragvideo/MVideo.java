@@ -58,6 +58,11 @@ public class MVideo {
         return this;
     }
 
+    public MVideo bind(ImageLoaderAdapter l) {
+        DragVideoActivity.setLoader(l);
+        return this;
+    }
+
     /**
      * LEFT(90),
      * TOP(180),

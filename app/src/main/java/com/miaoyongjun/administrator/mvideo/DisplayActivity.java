@@ -17,6 +17,7 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.miaoyongjun.mdragvideo.ImageLoaderAdapter;
 import com.miaoyongjun.mdragvideo.MVideo;
 import com.miaoyongjun.mdragvideo.media.IjkVideoView;
 
@@ -58,7 +59,8 @@ public class DisplayActivity extends AppCompatActivity {
         toolbar.setTitle("朋友圈");
         setSupportActionBar(toolbar);
         ActionBar actionBar = getSupportActionBar();
-        if (actionBar != null) actionBar.setDisplayHomeAsUpEnabled(true);
+        if (actionBar != null)
+            actionBar.setDisplayHomeAsUpEnabled(true);
         mRecyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         mRecyclerView.setAdapter(new MainAdapter());
@@ -105,6 +107,12 @@ public class DisplayActivity extends AppCompatActivity {
                                     (activityPosition == 1 || activityPosition == 3) ?
                                             IjkVideoView.RotateDirection.LEFT :
                                             IjkVideoView.RotateDirection.DEFAULT)
+                            .bind(new ImageLoaderAdapter() {
+                                @Override
+                                public void bind(ImageView imageView, String imagePath) {
+                                    Glide.with(DisplayActivity.this).load(imagePath).into(imageView);
+                                }
+                            })
                             .start(DisplayActivity.this, srcView, videoPath);
 
                 }

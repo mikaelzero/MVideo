@@ -11,8 +11,8 @@ android {
     defaultConfig {
         minSdkVersion globalConfiguration.androidMinSdkVersion
         targetSdkVersion globalConfiguration.androidTargetSdkVersion
-        versionCode 2
-        versionName "1.1"
+        versionCode 12
+        versionName "1.2"
 
     }
     buildTypes {
