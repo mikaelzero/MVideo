@@ -1,6 +1,6 @@
 ## MVideo     [![](https://jitpack.io/v/miaoyongjun/MVideo.svg)](https://jitpack.io/#miaoyongjun/MVideo)
 
-已停止维护  可参考 https://github.com/moyokoo/Diooto
+已停止维护  可参考  https://github.com/MikaelZero/Mojito
 
 An imitation of WeChat circle of friends video effects,  can drag and zoom ,video view,base on ijkplayer.
 
@@ -9,8 +9,6 @@ An imitation of WeChat circle of friends video effects,  can drag and zoom ,vide
 
 
 ![mvideo](https://github.com/miaoyongjun/MVideo/blob/master/1.gif?raw=true)
-
-[Download Demo](https://github.com/miaoyongjun/MVideo/releases/download/1.0/app-release.apk)
 
 ## Get started
 
